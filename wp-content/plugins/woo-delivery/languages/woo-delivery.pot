@@ -1,0 +1,547 @@
+# Copyright (C) 2024 CodeRockz
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Delivery & Pickup Date Time for WooCommerce 1.3.75\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-delivery\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-08T09:54:03+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: woo-delivery\n"
+
+#. Plugin Name of the plugin
+#: coderockz-woo-delivery.php
+msgid "Delivery & Pickup Date Time for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: coderockz-woo-delivery.php
+msgid "Delivery & Pickup Date Time for WooCommerce is a WooCommerce plugin extension that gives the facility of selecting delivery/pickup date and time on order checkout page. Moreover, you don't need to worry about the styling because the plugin adjusts with your WordPress theme."
+msgstr ""
+
+#. Author of the plugin
+#: coderockz-woo-delivery.php
+msgid "CodeRockz"
+msgstr ""
+
+#. Author URI of the plugin
+#: coderockz-woo-delivery.php
+msgid "https://coderockz.com"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:135
+#: admin/class-coderockz-woo-delivery-admin.php:136
+msgid "Woo Delivery"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:574
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1291
+msgid "Delivery Details"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:598
+#: admin/class-coderockz-woo-delivery-admin.php:792
+#: admin/class-coderockz-woo-delivery-admin.php:1091
+#: admin/partials/coderockz-woo-delivery-admin-display.php:56
+#: block/class-coderockz-woo-delivery-block.php:120
+#: block/class-coderockz-woo-delivery-settings.php:87
+#: public/class-coderockz-woo-delivery-public.php:252
+#: public/class-coderockz-woo-delivery-public.php:1288
+#: public/class-coderockz-woo-delivery-public.php:1380
+msgid "Delivery Date"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:599
+#: admin/class-coderockz-woo-delivery-admin.php:793
+#: admin/class-coderockz-woo-delivery-admin.php:1116
+#: admin/partials/coderockz-woo-delivery-admin-display.php:57
+#: block/class-coderockz-woo-delivery-block.php:128
+#: block/class-coderockz-woo-delivery-settings.php:131
+#: public/class-coderockz-woo-delivery-public.php:352
+#: public/class-coderockz-woo-delivery-public.php:1289
+#: public/class-coderockz-woo-delivery-public.php:1381
+msgid "Pickup Date"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:600
+#: admin/class-coderockz-woo-delivery-admin.php:794
+#: admin/partials/coderockz-woo-delivery-admin-display.php:59
+#: block/class-coderockz-woo-delivery-block.php:124
+#: block/class-coderockz-woo-delivery-settings.php:107
+#: public/class-coderockz-woo-delivery-public.php:295
+#: public/class-coderockz-woo-delivery-public.php:1290
+#: public/class-coderockz-woo-delivery-public.php:1382
+msgid "Delivery Time"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:601
+#: admin/class-coderockz-woo-delivery-admin.php:795
+#: admin/partials/coderockz-woo-delivery-admin-display.php:60
+#: block/class-coderockz-woo-delivery-block.php:132
+#: block/class-coderockz-woo-delivery-settings.php:151
+#: public/class-coderockz-woo-delivery-public.php:384
+#: public/class-coderockz-woo-delivery-public.php:1291
+#: public/class-coderockz-woo-delivery-public.php:1383
+msgid "Pickup Time"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:890
+msgid "We have worked relentlessly to develop the plugin and it would really appreciate us if you dropped a short review about the plugin. Your review means a lot to us and we are working to make the plugin more awesome. Thanks for using WooCommerce Delivery & Pickup Date Time."
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:892
+msgid "Remind me later"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:893
+msgid "Review Here"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:894
+msgid "I would not"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:920
+msgid "Delivery/Pickup Date & Time"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:956
+#: block/class-coderockz-woo-delivery-settings.php:262
+msgid "Select order type"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1040
+#: block/class-coderockz-woo-delivery-settings.php:248
+#: public/class-coderockz-woo-delivery-public.php:301
+msgid "(Maximum delivery limit exceed)"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1041
+#: block/class-coderockz-woo-delivery-settings.php:250
+#: public/class-coderockz-woo-delivery-public.php:389
+msgid "(Maximum pickup limit exceed)"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1043
+#: includes/class-coderockz-woo-delivery-delivery-option.php:13
+#: public/class-coderockz-woo-delivery-public.php:194
+msgid "Delivery"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1044
+#: includes/class-coderockz-woo-delivery-delivery-option.php:14
+#: public/class-coderockz-woo-delivery-public.php:195
+msgid "Pickup"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1141
+#: block/class-coderockz-woo-delivery-settings.php:263
+msgid "Select delivery time"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1151
+#: block/class-coderockz-woo-delivery-settings.php:264
+msgid "Select pickup time"
+msgstr ""
+
+#: admin/class-coderockz-woo-delivery-admin.php:1162
+msgid "Update"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:54
+msgid "Timezone Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:55
+msgid "Order Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:58
+#: admin/partials/coderockz-woo-delivery-admin-display.php:783
+msgid "Off Days"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:61
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1274
+msgid "Localization"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:62
+msgid "Others"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:63
+msgid "Free VS Pro"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:68
+msgid "TimeZone Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:70
+#: admin/partials/coderockz-woo-delivery-admin-display.php:538
+#: admin/partials/coderockz-woo-delivery-admin-display.php:598
+#: admin/partials/coderockz-woo-delivery-admin-display.php:690
+#: admin/partials/coderockz-woo-delivery-admin-display.php:877
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1080
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1276
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1337
+msgid " Settings Changed Successfully"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:71
+msgid " Before All the Settings, Please Set Your Timezone First, Otherwise We Are Using the WordPress Timezone."
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:76
+msgid "Store Location Timezone"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:79
+msgid "Select Timezone"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:526
+#: admin/partials/coderockz-woo-delivery-admin-display.php:584
+#: admin/partials/coderockz-woo-delivery-admin-display.php:677
+#: admin/partials/coderockz-woo-delivery-admin-display.php:773
+#: admin/partials/coderockz-woo-delivery-admin-display.php:865
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1069
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1265
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1326
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1403
+msgid "Save Changes"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:536
+msgid "Order Type Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:543
+msgid "Give Option to choose from Delivery or Pickup"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:551
+msgid "Order Type Field Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:556
+msgid "Delivery Option Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:562
+msgid "Self Pickup Option Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:567
+msgid "Dynamically Enable/Disable Delivery/Pickup Based on WooCommerce Shipping"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:576
+msgid "Dynamically Change Shipping Method Based on Delivery/Pickup"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:596
+msgid "General Delivery Date Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:603
+msgid "Enable Delivery Date"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:611
+msgid "Make Delivery Date Field Mandatory"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:619
+msgid "Delivery Date Field Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:625
+msgid "Allow Delivery in Next Available Days"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:631
+#: admin/partials/coderockz-woo-delivery-admin-display.php:724
+msgid "Week Starts From"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:634
+#: admin/partials/coderockz-woo-delivery-admin-display.php:727
+msgid "Select Day"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:646
+msgid "Delivery Date Format"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:656
+#: admin/partials/coderockz-woo-delivery-admin-display.php:751
+msgid "Auto Select 1st Available Date"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:664
+msgid "Delivery Days"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:688
+msgid "General Pickup Date Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:695
+msgid "Enable Pickup Date"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:703
+msgid "Make Pickup Date Field Mandatory"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:712
+msgid "Pickup Date Field Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:718
+msgid "Allow Pickup in Next Available Days"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:739
+msgid "Pickup Date Format"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:760
+msgid "Pickup Days"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:786
+msgid "Add New Year"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:806
+#: admin/partials/coderockz-woo-delivery-admin-display.php:839
+msgid "Year (ex. 2019)"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:811
+#: admin/partials/coderockz-woo-delivery-admin-display.php:843
+msgid "Select Month"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:817
+#: admin/partials/coderockz-woo-delivery-admin-display.php:852
+msgid "Comma(,) Separeted Date"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:827
+#: admin/partials/coderockz-woo-delivery-admin-display.php:857
+msgid "Add Month"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:875
+msgid "General Delivery Time Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:882
+msgid "Enable Delivery Time"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:890
+msgid "Make Delivery Time Field Mandatory"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:898
+msgid "Delivery Time Field Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:940
+msgid "Time Slot Starts From"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:988
+msgid "Time Slot Ends At"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:998
+msgid "End Time Must after Start Time"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1022
+msgid "Each Time Slot Duration"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1034
+msgid "Maximum Order Per Time Slot"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1040
+msgid "Delivery Time format"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1044
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1243
+msgid "Select Time Format"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1051
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1250
+msgid "Disable Current Time Slot"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1060
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1258
+msgid "Auto Select 1st Available Time"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1078
+msgid "General Pickup Time Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1085
+msgid "Enable Pickup Time"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1093
+msgid "Make Pickup Time Field Mandatory"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1101
+msgid "Pickup Time Field Label"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1139
+msgid "Pickup Time Slot Starts From"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1188
+msgid "Pickup Time Slot Ends At"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1221
+msgid "Each Pickup Time Slot Duration"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1233
+msgid "Maximum Pickup Per Time Slot"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1239
+msgid "Pickup Time format"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1281
+msgid "Maximum Delivery Limit Exceed"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1286
+msgid "Maximum Pickup Limit Exceed"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1297
+msgid "Single Order Page Metabox Heading"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1302
+msgid "Order Type Checkout Page Notice"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1307
+msgid "Delivery Date Checkout Page Notice"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1312
+msgid "Pickup Date Checkout Page Notice"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1317
+msgid "Delivery Time Checkout Page Notice"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1322
+msgid "Pickup Time Checkout Page Notice"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1335
+msgid "Other Settings"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1359
+msgid "Heading On The Checkout Page"
+msgstr ""
+
+#: admin/partials/coderockz-woo-delivery-admin-display.php:1397
+msgid "Custom CSS"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-block-storage.php:156
+msgid "Selected delivery time has already passed."
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-block-storage.php:158
+msgid "Selected pickup time has already passed."
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-block-storage.php:252
+msgid "Maximum order limit exceed for this delivery time slot."
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-block-storage.php:254
+msgid "Maximum order limit exceed for this pickup time slot."
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-block.php:115
+msgid "Type of order"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:67
+msgid "Delivery/Pickup options"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:71
+#: public/class-coderockz-woo-delivery-public.php:193
+msgid "Order Type"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:252
+#: public/class-coderockz-woo-delivery-public.php:444
+msgid "Please select order type"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:254
+#: public/class-coderockz-woo-delivery-public.php:445
+msgid "Please enter delivery date"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:256
+#: public/class-coderockz-woo-delivery-public.php:446
+msgid "Please enter pickup date"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:258
+#: public/class-coderockz-woo-delivery-public.php:447
+msgid "Please select delivery time"
+msgstr ""
+
+#: block/class-coderockz-woo-delivery-settings.php:260
+#: public/class-coderockz-woo-delivery-public.php:448
+msgid "Please select pickup time"
+msgstr ""
+
+#: public/class-coderockz-woo-delivery-public.php:642
+msgid "Selected delivery time has already passed. Please reload the page."
+msgstr ""
+
+#: public/class-coderockz-woo-delivery-public.php:659
+msgid "Maximum order limit exceed for this timeslot. Please reload the page."
+msgstr ""
+
+#: public/class-coderockz-woo-delivery-public.php:768
+msgid "Selected pickup time has already passed. Please reload the page."
+msgstr ""
+
+#: public/class-coderockz-woo-delivery-public.php:785
+msgid "Maximum order limit exceed for this pickup slot. Please reload the page."
+msgstr ""

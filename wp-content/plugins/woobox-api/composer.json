@@ -1,0 +1,31 @@
+{
+    "name": "woobox/woobox-api",
+    "description": "Woobox API",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Woobox"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "8.*",
+        "ext-json": "*",
+        "stripe/stripe-php": "^7.66",
+        "automattic/woocommerce": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Includes\\": "includes/",
+            "Utils\\": "utils/"
+        },
+        "classmap": [
+            "includes/controllers/",
+            "includes/controllers/api/",
+            "includes/baseClasses/"
+        ],
+        "files": [
+            "utils/wb_helpers.php"
+        ]
+    }
+}
