@@ -286,12 +286,12 @@ class WB3DModelController extends WBBase {
         $file_ext = pathinfo($file['name'], PATHINFO_EXTENSION);
         
         // Check file extension
-        $allowed_types = array('glb', 'gltf');
+        $allowed_types = array('glb');
         if (!in_array(strtolower($file_ext), $allowed_types)) {
             return new WP_REST_Response(
                 array(
                     'status'  => 400,
-                    'message' => __('Invalid file type. Only GLB and GLTF files are allowed', 'woobox')
+                    'message' => __('Invalid file type. Only GLB files are allowed', 'woobox')
                 ), 
                 400
             );

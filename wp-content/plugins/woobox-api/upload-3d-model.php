@@ -24,8 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['model_file'])) {
     } else {
         // Kiểm tra phần mở rộng file
         $file_extension = strtolower(pathinfo($file['name'], PATHINFO_EXTENSION));
-        if ($file_extension !== 'glb' && $file_extension !== 'gltf') {
-            $upload_message = 'Chỉ chấp nhận file .glb hoặc .gltf';
+        if ($file_extension !== 'glb') {
+            $upload_message = 'Chỉ chấp nhận file .glb';
         } else {
             // Tạo thư mục upload nếu chưa tồn tại
             $upload_dir = WP_CONTENT_DIR . '/uploads/3d-models';
@@ -149,8 +149,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['model_file'])) {
         
         <form method="post" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="model_file">Chọn file model 3D (.glb, .gltf):</label>
-                <input type="file" name="model_file" id="model_file" accept=".glb,.gltf" required>
+                <label for="model_file">Chọn file model 3D (.glb):</label>
+                <input type="file" name="model_file" id="model_file" accept=".glb" required>
             </div>
             <button type="submit">Tải lên</button>
         </form>
@@ -173,7 +173,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['model_file'])) {
         <p>
             <strong>Hướng dẫn:</strong>
             <ol>
-                <li>Tải lên file model 3D (.glb hoặc .gltf)</li>
+                <li>Tải lên file model 3D (.glb)</li>
                 <li>Sau khi tải lên thành công, sao chép URL</li>
                 <li>Dán URL vào trường "3D Model File" trong trang chi tiết sản phẩm</li>
             </ol>

@@ -12,7 +12,6 @@ if (!defined('ABSPATH')) exit; // Exit if accessed directly
  */
 function woobox_add_3d_mime_types($mimes) {
     $mimes['glb'] = 'model/gltf-binary';
-    $mimes['gltf'] = 'model/gltf+json';
     return $mimes;
 }
 add_filter('upload_mimes', 'woobox_add_3d_mime_types');
@@ -35,9 +34,6 @@ function woobox_bypass_mime_check_for_3d_models($data, $file, $filename, $mimes,
         if ($file_ext === 'glb') {
             $ext = 'glb';
             $type = 'model/gltf-binary';
-        } elseif ($file_ext === 'gltf') {
-            $ext = 'gltf';
-            $type = 'model/gltf+json';
         }
     }
 
@@ -78,7 +74,7 @@ function woobox_3d_models_page() {
         
         <div class="card">
             <h2><?php echo esc_html__('Upload 3D Model', 'woobox'); ?></h2>
-            <p><?php echo esc_html__('Upload your 3D model files (GLB or GLTF format) to use with your products.', 'woobox'); ?></p>
+            <p><?php echo esc_html__('Upload your 3D model files (GLB format) to use with your products.', 'woobox'); ?></p>
             <p>
                 <a href="<?php echo esc_url(plugin_dir_url(dirname(dirname(__FILE__))) . 'upload-3d-model.php'); ?>" class="button button-primary" target="_blank">
                     <?php echo esc_html__('Upload Model', 'woobox'); ?>
@@ -179,7 +175,7 @@ add_action('woocommerce_product_data_panels', function() {
                 <label for="woobox_3d_model_file"><?php esc_html_e('3D Model File', 'woobox'); ?></label>
                 <input type="text" class="short" style="width: 80%;" name="woobox_3d_model_file" id="woobox_3d_model_file" value="<?php echo esc_attr($model_file); ?>" />
                 <button type="button" class="button woobox_upload_3d_model_button"><?php esc_html_e('Upload', 'woobox'); ?></button>
-                <span class="description"><?php esc_html_e('Upload a 3D model file (supported formats: .glb, .gltf)', 'woobox'); ?></span>
+                <span class="description"><?php esc_html_e('Upload a 3D model file (supported format: .glb)', 'woobox'); ?></span>
             </p>
 
             <?php if (!empty($model_file)) : ?>
